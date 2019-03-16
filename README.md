@@ -1,4 +1,4 @@
-# spring-boot-generator
+# service-center
 
 ## 项目简介
 本项目使用spring-boot脚手架搭建
