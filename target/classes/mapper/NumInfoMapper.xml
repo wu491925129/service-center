@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wulong.project.dao.NumInfoMapper">
+  <resultMap id="BaseResultMap" type="com.wulong.project.model.NumInfo">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="VARCHAR" property="id" />
+    <result column="num_name" jdbcType="VARCHAR" property="numName" />
+    <result column="num_length" jdbcType="INTEGER" property="numLength" />
+    <result column="current_num" jdbcType="INTEGER" property="currentNum" />
+  </resultMap>
+</mapper>

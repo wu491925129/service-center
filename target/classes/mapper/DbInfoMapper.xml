@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wulong.project.dao.DbInfoMapper">
+  <resultMap id="BaseResultMap" type="com.wulong.project.model.DbInfo">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="VARCHAR" property="id" />
+    <result column="db_name" jdbcType="VARCHAR" property="dbName" />
+    <result column="db_type" jdbcType="VARCHAR" property="dbType" />
+    <result column="db_address" jdbcType="VARCHAR" property="dbAddress" />
+    <result column="user_name" jdbcType="VARCHAR" property="userName" />
+    <result column="password" jdbcType="VARCHAR" property="password" />
+    <result column="status" jdbcType="VARCHAR" property="status" />
+    <result column="op_time" jdbcType="TIMESTAMP" property="opTime" />
+  </resultMap>
+</mapper>
