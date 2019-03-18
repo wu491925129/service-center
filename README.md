@@ -1,7 +1,7 @@
-# spring-boot-generator
+# service-center
 
 ## 项目简介
-本项目为spring-boot脚手架，开箱即用
+本项目使用spring-boot脚手架搭建
 
 ## 功能特性
 内置全局异常处理、拦截器、log4j2日志、aop日志管理、PageHelper分页、JWT Token签名
