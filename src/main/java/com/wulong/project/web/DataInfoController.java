@@ -66,10 +66,10 @@ public class DataInfoController {
     }
 
     @PostMapping("/delete")
-    public Result delete(@RequestParam String id) {
-        if (!Strings.isNullOrEmpty(id)) {
+    public Result delete(@RequestParam String dataId) {
+        if (!Strings.isNullOrEmpty(dataId)) {
             DataInfo info = new DataInfo();
-            info.setDataId(id);
+            info.setDataId(dataId);
             info.setStatus("0");
             dataInfoService.updateByPrimaryKeySelective(info);
             return ResultGenerator.genSuccessResult();
